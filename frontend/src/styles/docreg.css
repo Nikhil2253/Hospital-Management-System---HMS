@@ -1,0 +1,90 @@
+.doctor-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(255, 244, 244);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.login-doc-div {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-background);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-doc-header {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--red-primary);
+    margin-bottom: 15px;
+}
+
+.login-doc-form {
+    background-color: var(--card-background);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Slightly wider for better spacing */
+}
+
+/* Grid Layout with spacing */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px ;
+    column-gap: 55px ;
+    margin-bottom: 10px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-doc-form label {
+    font-size: 14px;
+    color: var(--text-primary);
+    font-weight: bold;
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+.login-doc-form input,
+.login-doc-form select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid var(--red-primary);
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+
+.login-doc-button {
+    background-color: var(--red-primary);
+    color: var(--background-color);
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-top: 20px; /* Space above button */
+    width: 100%;
+}
+
+.login-doc-button:hover {
+    background-color: var(--red-light);
+}
+
+:root {
+    --red-primary: #ff3b3b;
+    --red-light: #ff6666;
+}

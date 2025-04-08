@@ -1,0 +1,92 @@
+.hospital-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(244, 252, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.login-div {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-background);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--card-background);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+/* Grid container for 3 inputs */
+.input-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 10px;
+}
+
+/* Ensure input fields take full column width */
+.input-grid div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+.login-form label {
+    font-size: 16px;
+    color: var(--text-primary);
+}
+
+/* Input field styling */
+.login-form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+
+/* Button styling */
+.login-button {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.login-button:hover {
+    background-color: var(--primary-light);
+}
+
+/* Responsive - Stack inputs on smaller screens */
+@media (max-width: 600px) {
+    .input-grid {
+        grid-template-columns: 1fr; /* Stack inputs in one column */
+    }
+}

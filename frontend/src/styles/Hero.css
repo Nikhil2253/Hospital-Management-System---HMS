@@ -1,0 +1,59 @@
+.hero-section {
+    width: 100%;
+    height: 500px; /* full screen minus navbar */
+    margin-top: 100px;
+    /* Background image + gradient overlay */
+    background: 
+      linear-gradient(
+        rgba(25, 118, 210, 0.7),  /* Top color with 70% opacity */
+        rgba(25, 118, 210, 0.7)   /* Bottom color with 70% opacity */
+      ),
+      url('../../public/hero-bg.png'); /* <-- Your image path here */
+    
+    background-size: cover;       /* Make sure it covers entire section */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat; /* No repeat */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Text styling */
+  .hero-section .heading {
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFFFFF; /* White text because of dark overlay */
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .hero-section .subheading {
+    font-size: 18px;
+    color: #f0f0f0; /* Slightly softer white */
+    margin-bottom: 40px;
+    max-width: 600px;
+    line-height: 1.6;
+  }
+  
+  .hero-section .get-started-btn {
+    background-color: var(--background-color); /* White button */
+    color: var(--primary-color);               /* Primary text */
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-section .get-started-btn:hover {
+    background-color: var(--primary-light);
+    color: #ffffff;
+  }
+  

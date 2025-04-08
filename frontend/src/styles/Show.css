@@ -1,0 +1,118 @@
+/* Light Theme Colors */
+:root {
+    --primary-color: #3498db;          /* Primary blue */
+    --secondary-color: #56ccf2;        /* Lighter blue */
+    --accent-color: #2f80ed;           /* Accent deep blue */
+    --background-color: #f5f7fa;       /* Light gray background */
+    --text-color: #333333;             /* Dark text */
+    --card-background: #ffffff;        /* Pure white cards */
+    --border-radius: 12px;
+    --shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    --hover-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
+    --transition-speed: 0.4s;
+  }
+  
+
+  
+  /* Container */
+  .showcase-container {
+    padding: 50px 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  /* ====================== STATS SECTION ====================== */
+  .stats-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 70px;
+  }
+  
+  .stat-box {
+    background: linear-gradient(145deg, #ffffff, #e6ebf1);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    border: 1px solid #e0e0e0;
+    flex: 1;
+    min-width: 280px;
+    padding: 40px 20px;
+    text-align: center;
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+  }
+  
+  .stat-box:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--hover-shadow);
+  }
+  
+  .stat-box h3 {
+    color: var(--accent-color);
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .stat-box p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+   
+  /* ====================== REVIEWS SECTION ====================== */
+  .reviews-section {
+    text-align: center;
+  }
+  
+  .reviews-section h2 {
+    margin-bottom: 30px;
+    color: var(--primary-color);
+    font-size: 2rem;
+    position: relative;
+  }
+  
+  .reviews-section h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin: 10px auto 0;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    border-radius: 2px;
+  }
+  
+  .reviews-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  .review-card {
+    background: var(--card-background);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    max-width: 320px;
+    padding: 30px;
+    text-align: left;
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+    border: 1px solid #e0e0e0;
+  }
+  
+  .review-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--hover-shadow);
+  }
+  
+  .review-card p {
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .review-card strong {
+    color: var(--text-color);
+    font-weight: 600;
+  }
+  

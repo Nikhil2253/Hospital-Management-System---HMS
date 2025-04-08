@@ -1,0 +1,74 @@
+.patient-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(244, 255, 244); 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.login-pat-div {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-background);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-pat-header {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--green-primary); 
+    margin-bottom: 20px;
+}
+
+.login-pat-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--card-background);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+.login-pat-form label {
+    font-size: 16px;
+    color: var(--text-primary);
+}
+
+.login-pat-form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid var(--green-primary);
+    border-radius: 5px;
+    outline: none;
+}
+
+.login-pat-button {
+    background-color: var(--green-primary);
+    color: var(--background-color);
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.login-pat-button:hover {
+    background-color: var(--green-light);
+}
+
+
+:root {
+    --green-primary: #28a745; 
+    --green-light: #5cd65c;  
+}
