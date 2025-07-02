@@ -34,18 +34,4 @@ HMS Nick is a full-featured Hospital Management System built with the **MERN Sta
 ## 📷 Screenshots
 
 
----
-
-/frontend
-  /components
-  /pages
-  /contexts
-  /styles
-
-/backend
-  /models
-  /routes
-  /controllers
-  /middlewares
-  server.js
 
