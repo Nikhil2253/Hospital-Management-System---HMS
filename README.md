@@ -33,13 +33,19 @@ HMS Nick is a full-featured Hospital Management System built with the **MERN Sta
 
 ## 📷 Screenshots
 
-> _Include screenshots of the Doctor Dashboard, Patient List, Appointment view, etc._
 
 ---
 
-## 🚀 Installation
+/frontend
+  /components
+  /pages
+  /contexts
+  /styles
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/hms-nick.git
-cd hms-nick
+/backend
+  /models
+  /routes
+  /controllers
+  /middlewares
+  server.js
+
