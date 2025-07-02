@@ -60,7 +60,12 @@ A full-featured Hospital Management System built using the **MERN Stack**, enabl
 
 ---
 
-## 🚀 Demo Video
+## 🚀 Project Demo
 
-[![Watch on LinkedIn](https://img.shields.io/badge/Watch-Demo%20on%20LinkedIn-blue?logo=linkedin)]([https://www.linkedin.com/posts/your-username_hospital-management-system-demo-activity-123456789/](https://www.linkedin.com/posts/nikhil-saxena-76901a2a5_mernstack-hospitalmanagementsystem-webapplication-activity-7315203906207170560-gRGS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdVj9oB4CAhnQ-TRyk-j27eD8jqwhJpxJY))
+🎥 **Watch Full Demo on LinkedIn**  
+🔗 [Click here to watch the HMS Nick walkthrough](https://www.linkedin.com/posts/nikhil-saxena-76901a2a5_mernstack-hospitalmanagementsystem-webapplication-activity-7315203906207170560-gRGS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdVj9oB4CAhnQ-TRyk-j27eD8jqwhJpxJY)
+
+Or click the badge below:
+
+[![Watch on LinkedIn](https://img.shields.io/badge/Watch-Demo%20on%20LinkedIn-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/posts/nikhil-saxena-76901a2a5_mernstack-hospitalmanagementsystem-webapplication-activity-7315203906207170560-gRGS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdVj9oB4CAhnQ-TRyk-j27eD8jqwhJpxJY)
 
